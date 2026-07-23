@@ -10,6 +10,7 @@
   "type": "commonjs",
   "dependencies": {
     "@slack/bolt": "^5.0.0",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "hi-base32": "^0.5.1"
   }
 }
