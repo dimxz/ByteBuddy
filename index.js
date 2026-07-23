@@ -45,9 +45,6 @@ app.command("/bytebuddy-url", async ({ command, ack, respond }) => {
   const mode = command.text.split(' ')[0];
   const input = command.text.split(' ').slice(1).join(' ');
 
-  console.log(mode);
-  console.log(input);
-  
   if (mode !== 'encode' && mode !== 'decode'){
     await respond({ text: `Enter valid 'encode' or 'decode' mode.` });
     } else {
