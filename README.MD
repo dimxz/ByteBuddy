@@ -3,7 +3,7 @@
 A Slack bot that brings everyday dev tools — encoders, decoders, and converters — right into Slack, so you don't have to leave the conversation to use them.
 
 ![ByteBuddy demo](preview.jpg)
-**[Try it in Slack →](https://hackclub.enterprise.slack.com/archives/C0P5NE354))**
+**[Try it in Slack →](https://hackclub.enterprise.slack.com/archives/C0P5NE354)**
 
 ## Quick start
 
@@ -21,7 +21,7 @@ A Slack bot that brings everyday dev tools — encoders, decoders, and converter
 
 Requires Node.js 20+
 
-1. Clone the repo: `git clone [your-repo-url]`
+1. Clone the repo: `git clone https://github.com/dimxz/ByteBuddy`
 2. Install dependencies: `npm install`
 3. Create a `.env` file with your Slack tokens:
    
