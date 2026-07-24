@@ -19,14 +19,16 @@ A Slack bot that brings everyday dev tools — encoders, decoders, and converter
 
 ## Running it locally
 
-Requires Node.js [version].
+Requires Node.js 20+
 
 1. Clone the repo: `git clone [your-repo-url]`
 2. Install dependencies: `npm install`
 3. Create a `.env` file with your Slack tokens:
+   
 SLACK_BOT_TOKEN=xoxb-your-token
 SLACK_APP_TOKEN=xapp-your-token
-4. Start the bot: `node app.js`
+
+5. Start the bot: `node app.js`
 
 ## How it works
 
