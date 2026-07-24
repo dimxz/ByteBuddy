@@ -3,7 +3,7 @@
 A Slack bot that brings everyday dev tools — encoders, decoders, and converters — right into Slack, so you don't have to leave the conversation to use them.
 
 ![ByteBuddy demo](preview.jpg)
-**[Try it in Slack →](your-demo-link-or-channel)**
+**[Try it in Slack →](https://hackclub.enterprise.slack.com/archives/C0P5NE354))**
 
 ## Quick start
 
