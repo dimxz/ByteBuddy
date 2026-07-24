@@ -28,7 +28,7 @@ Requires Node.js 20+
 SLACK_BOT_TOKEN=xoxb-your-token
 SLACK_APP_TOKEN=xapp-your-token
 
-5. Start the bot: `node app.js`
+5. Start the bot: `node index.js`
 
 ## How it works
 
