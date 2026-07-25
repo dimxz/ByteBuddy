@@ -2,6 +2,7 @@ const { validateAndDecode } = require('../utils/validation');
 const { parseModeAndInput }= require('../utils/parseArgs');
 const { encode } = require('hi-base32');
 
+
 module.exports = {
     command: '/bytebuddy-base32',
     handler: async ({ command, ack, respond}) => {
