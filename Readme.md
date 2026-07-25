@@ -26,8 +26,8 @@ Requires Node.js 20+
 2. Install dependencies: `npm install`
 3. Create a `.env` file with your Slack tokens:
    
-SLACK_BOT_TOKEN=xoxb-your-token
-SLACK_APP_TOKEN=xapp-your-token
+- SLACK_BOT_TOKEN=xoxb-your-token
+- SLACK_APP_TOKEN=xapp-your-token
 
 5. Start the bot: `node index.js`
 
