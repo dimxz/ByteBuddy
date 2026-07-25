@@ -14,6 +14,7 @@ A Slack bot that brings everyday dev tools — encoders, decoders, and converter
 ## Features
 
 - `/bytebuddy-base64 encode|decode <text>` — Base64 encoding and decoding
+- `/bytebuddy-base32 encode|decode <text>` — Base32 encoding and decoding
 - `/bytebuddy-url encode|decode <text>` — URL encoding and decoding
 - `/bytebuddy-hextorgb <hex>` — Convert hex color codes (3 or 6 digit) to RGB values
 

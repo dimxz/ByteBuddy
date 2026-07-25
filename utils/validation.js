@@ -31,4 +31,4 @@ function validateAndDecode(input, type){
 }
 
 
-module.exports = validateAndDecode;
+module.exports = { validateAndDecode };
