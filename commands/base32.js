@@ -5,6 +5,7 @@ const { encode } = require('hi-base32');
 
 module.exports = {
     command: '/bytebuddy-base32',
+    description: 'Encode / Decode Base32 strings',
     handler: async ({ command, ack, respond}) => {
         await ack();
         const { mode, input } = parseModeAndInput(command.text);

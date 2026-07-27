@@ -5,6 +5,7 @@ const { parseModeAndInput }= require('../utils/parseArgs');
 
 module.exports = {
     command: '/bytebuddy-base64',
+    description: 'Encode / Decode Base64 strings',
     handler: async ({ command, ack, respond}) => {
         await ack();
         const { mode, input } = parseModeAndInput(command.text);

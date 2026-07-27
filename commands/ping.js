@@ -3,6 +3,7 @@ const { parseModeAndInput }= require('../utils/parseArgs');
 
 module.exports = {
     command: '/bytebuddy-ping',
+    description: 'Check if the bot is online',
     handler: async ({ command, ack, respond}) => {
         const start = Date.now();
         await ack();

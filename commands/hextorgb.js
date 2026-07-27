@@ -5,6 +5,7 @@ const { parseModeAndInput }= require('../utils/parseArgs');
 
 module.exports = {
     command: '/bytebuddy-hextorgb',
+    description: 'Convert a hex color code into RGB',
     handler: async ({ command, ack, respond}) => {
         await ack();
 

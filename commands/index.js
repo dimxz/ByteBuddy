@@ -10,10 +10,10 @@ function loadCommands() {
 function registerCommands(app) {
     const commands = loadCommands();
 
-    for( const { command, handler } of commands) {
+    for(const { command, description, handler } of commands) {
         app.command(command, handler);
         console.log(`Registered command : ${command}`)
     }
 }
 
-module.exports = { registerCommands };
+module.exports = { registerCommands, loadCommands };
