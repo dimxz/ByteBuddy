@@ -1,5 +1,3 @@
-// { command: '/bytebuddy-whatever', handler: async ({ command, ack, respond }) => {...} }
-
 const { validateAndDecode } = require('../utils/validation');
 const { parseModeAndInput }= require('../utils/parseArgs');
 
