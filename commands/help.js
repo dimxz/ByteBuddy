@@ -17,10 +17,10 @@ module.exports = {
         }
 
         const message = allCommands
-        .map(data => `*${data.command}* - *${data.description}*`)
+        .map(data => `*${data.command}* - _${data.description}_`)
         .join('\n');
 
-        await respond({text: `*ByteBuddy Available Commands :* \n\n_${message}_`});
+        await respond({text: `*ByteBuddy Available Commands :* \n\n${message}`});
     }
 };
 
