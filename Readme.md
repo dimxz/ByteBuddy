@@ -17,6 +17,14 @@ A Slack bot that brings everyday dev tools — encoders, decoders, and converter
 - `/bytebuddy-base32 encode|decode <text>` — Base32 encoding and decoding
 - `/bytebuddy-url encode|decode <text>` — URL encoding and decoding
 - `/bytebuddy-hextorgb <hex>` — Convert hex color codes (3 or 6 digit) to RGB values
+- `/bytebuddy-hash md5|sha1|sha256|sha512 <text>` — Hash a string using the specified algorithm
+- `/bytebuddy-jwt <token>` — Decode a JWT's header and payload (does not verify the signature)
+- `/bytebuddy-uuid [count]` — Generate one or more UUIDs (1–20, defaults to 1)
+- `/bytebuddy-timestamp [unix timestamp]` — Convert a Unix timestamp to a readable UTC date, or show the current time if omitted
+- `/bytebuddy-regex /pattern/flags <string>` — Test a regex pattern against a string
+- `/bytebuddy-ping` — Check if the bot is online
+- `/bytebuddy-help` — List all available commands
+
 
 ## Running it locally
 
