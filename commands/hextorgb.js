@@ -11,7 +11,7 @@ module.exports = {
         
         if (input.length == 3) {
             const doubled = input.split('').map(char => parseInt(char + char, 16));
-            await respond({ text: `RGB Value:\nR : ${doubled[0]}\nG : ${doubled[1]}\nB : ${doubled[2]}`, response_type: 'in_channel' });
+            await respond({ text: `RGB Value:\nR : ${doubled[0]}\nG : ${doubled[1]}\nB : ${doubled[2]}` });
 
         } else if (input.length == 6) {
             const chunks = []
@@ -19,7 +19,7 @@ module.exports = {
             chunks.push(parseInt(input.slice(i, i + 2), 16));
         }
             
-            await respond({ text: `RGB Value:\nR : ${chunks[0]}\nG : ${chunks[1]}\nB : ${chunks[2]}`, response_type: 'in_channel' });
+            await respond({ text: `RGB Value:\nR : ${chunks[0]}\nG : ${chunks[1]}\nB : ${chunks[2]}` });
         } else {
             await respond({ text: `Invalid input length.` });  
         }

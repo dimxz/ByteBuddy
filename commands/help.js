@@ -20,7 +20,7 @@ module.exports = {
         .map(data => `*${data.command}* - _${data.description}_`)
         .join('\n');
 
-        await respond({text: `*ByteBuddy Available Commands :* \n\n${message}`});
+        await respond({text: `*ByteBuddy Available Commands :* \n\n${message}`, response_type: 'in_channel'});
     }
 };
 

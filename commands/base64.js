@@ -11,16 +11,16 @@ module.exports = {
         const { mode, input } = parseModeAndInput(command.text);
 
         if (mode !== "encode" && mode !== "decode") {
-            await respond({ text: `Enter valid "encode" or "decode" mode`, response_type: 'in_channel' });
+            await respond({ text: `Enter valid "encode" or "decode" mode` });
             return;
         }
 
         if (mode == "decode") {
             const decoded = validateAndDecode(input, 'base64');
-            await respond({ text: `Decoded strings : \n${decoded}`, response_type: 'in_channel' });
+            await respond({ text: `Decoded strings : \n${decoded}` });
         } else if (mode == "encode") {
             const encoded = Buffer.from(input, 'utf-8').toString('base64');
-            await respond({ text: `Encoded strings : \n${encoded}`, response_type: 'in_channel' });
+            await respond({ text: `Encoded strings : \n${encoded}` });
         }
     }
 };
